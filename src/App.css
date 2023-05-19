@@ -1,0 +1,28 @@
+/*CUSTOM*/
+
+.container{
+  width: 100% !important;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  width: 100%;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.header span{
+  color: white;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+}
