@@ -26,3 +26,18 @@
   align-items: center;
   width: 100%;
 }
+
+.product-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-list__item{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+}
